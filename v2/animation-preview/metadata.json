@@ -1,0 +1,112 @@
+{
+  "backend": "deterministic-2d-rig",
+  "fps": 12,
+  "frames": 48,
+  "duration": 4.0,
+  "size": [
+    640,
+    360
+  ],
+  "background_sha256": "dd90ff002e07613534cd8f046b9d4111fa40924cad616d804d33464e43f72be7",
+  "characters": {
+    "girl": {
+      "canonical": "人物 女孩 站着 开心 马尾 棕发 浅肤 长袖 长裤 运动鞋 普通身材 大眼睛 圆脸 小鼻子 普通脖子 张开手 自然脚姿 蓝色上衣 红色裤子 白色鞋子",
+      "attributes": {
+        "subject": "人物",
+        "identity": "女孩",
+        "action": "站着",
+        "expression": "开心",
+        "hair": "马尾",
+        "hair_color": "棕发",
+        "skin": "浅肤",
+        "top": "长袖",
+        "bottom": "长裤",
+        "shoes": "运动鞋",
+        "build": "普通身材",
+        "eyes": "大眼睛",
+        "face": "圆脸",
+        "nose": "小鼻子",
+        "top_color": "蓝色",
+        "bottom_color": "红色",
+        "shoe_color": "白色",
+        "neck": "普通脖子",
+        "hands": "张开手",
+        "feet": "自然脚姿"
+      },
+      "appearance_sha256": "888a610ef5b28d8e69fd94dc8eb7d53adbbd4db11a09c849f7522df25e580b66"
+    },
+    "cat": {
+      "canonical": "橘色猫站着",
+      "attributes": [
+        "橘色",
+        "猫",
+        "站着"
+      ],
+      "appearance_sha256": "ea215ed799f83808879025b182e94b50907b8934b8b64c4f9ae68f7d66792266"
+    },
+    "tree": {
+      "canonical": "绿色树阔叶树",
+      "attributes": {
+        "subject": "树",
+        "variant": "阔叶树",
+        "color": "绿色"
+      },
+      "appearance_sha256": "59f89904d0cda0ee1376eb81f3d120a5e73d1049c7be409918dfd8f6c0a4a507"
+    },
+    "inline:background-0": {
+      "canonical": "黄色太阳晴日",
+      "attributes": {
+        "subject": "太阳",
+        "variant": "晴日",
+        "color": "黄色"
+      },
+      "appearance_sha256": "8afa6fb2a915c16071dfeba8562b6ea5aaf3ca46ec4504b6b9146d154dabf1bb"
+    },
+    "inline:background-1": {
+      "canonical": "白色云积云",
+      "attributes": {
+        "subject": "云",
+        "variant": "积云",
+        "color": "白色"
+      },
+      "appearance_sha256": "aa804f0f64723ccad0cf73c0f378f26279e52a8da4d13a89f3ff092b20d71d41"
+    },
+    "inline:background-2": {
+      "canonical": "白色云积云",
+      "attributes": {
+        "subject": "云",
+        "variant": "积云",
+        "color": "白色"
+      },
+      "appearance_sha256": "aa804f0f64723ccad0cf73c0f378f26279e52a8da4d13a89f3ff092b20d71d41"
+    },
+    "inline:background-3": {
+      "canonical": "绿色山青山",
+      "attributes": {
+        "subject": "山",
+        "variant": "青山",
+        "color": "绿色"
+      },
+      "appearance_sha256": "788804a5ebcf44bd4f7e5012e7b90c43a39fdbbc2dfab89f57e60206808133fd"
+    },
+    "inline:background-4": {
+      "canonical": "橘色房屋小屋",
+      "attributes": {
+        "subject": "房屋",
+        "variant": "小屋",
+        "color": "橘色"
+      },
+      "appearance_sha256": "c227a7e9e9c7d6e953cced13cad36ab07ff1a4baa9595a34b2a7946dd5b4663c"
+    },
+    "inline:background-5": {
+      "canonical": "红色花郁金香",
+      "attributes": {
+        "subject": "花",
+        "variant": "郁金香",
+        "color": "红色"
+      },
+      "appearance_sha256": "dd5f9d29e4d137c8052fbd39082bfad67c25a3ac762b21944e9d9fe85b6a5edc"
+    }
+  },
+  "preview_stride": 1
+}

@@ -1,0 +1,65 @@
+{
+  "girl": {
+    "prompt": "开心的女孩挥手，马尾，蓝色长袖，红色长裤",
+    "source": "model",
+    "warning": "",
+    "size": [
+      196,
+      444
+    ]
+  },
+  "cat": {
+    "prompt": "橘色猫站着",
+    "source": "model",
+    "warning": "",
+    "size": [
+      249,
+      320
+    ]
+  },
+  "flower": {
+    "prompt": "红色郁金香",
+    "source": "template",
+    "warning": "模型指令未完成或语法无效，已回退到模板；本次图片不是完整模型推理结果。",
+    "size": [
+      248,
+      352
+    ]
+  },
+  "tree": {
+    "prompt": "绿色阔叶树",
+    "source": "model",
+    "warning": "",
+    "size": [
+      356,
+      444
+    ]
+  },
+  "house": {
+    "prompt": "橘色小屋",
+    "source": "model",
+    "warning": "",
+    "size": [
+      372,
+      356
+    ]
+  },
+  "sun": {
+    "prompt": "黄色太阳",
+    "source": "model",
+    "warning": "",
+    "size": [
+      376,
+      376
+    ]
+  },
+  "cloud": {
+    "prompt": "白色积云",
+    "source": "model",
+    "warning": "",
+    "size": [
+      388,
+      224
+    ]
+  }
+}

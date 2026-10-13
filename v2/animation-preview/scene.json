@@ -1,0 +1,215 @@
+{
+  "version": 1,
+  "width": 640,
+  "height": 360,
+  "fps": 12,
+  "duration": 4,
+  "characters": {
+    "girl": {
+      "attributes": {
+        "subject": "人物",
+        "identity": "女孩",
+        "action": "站着",
+        "expression": "开心",
+        "hair": "马尾",
+        "hair_color": "棕发",
+        "skin": "浅肤",
+        "top": "长袖",
+        "bottom": "长裤",
+        "shoes": "运动鞋",
+        "build": "普通身材",
+        "eyes": "大眼睛",
+        "face": "圆脸",
+        "nose": "小鼻子",
+        "top_color": "蓝色",
+        "bottom_color": "红色",
+        "shoe_color": "白色",
+        "neck": "普通脖子",
+        "hands": "张开手",
+        "feet": "自然脚姿"
+      }
+    },
+    "cat": {
+      "attributes": [
+        "橘色",
+        "猫",
+        "站着"
+      ]
+    },
+    "tree": {
+      "attributes": {
+        "subject": "树",
+        "variant": "阔叶树",
+        "color": "绿色"
+      }
+    },
+    "inline:background-0": {
+      "attributes": {
+        "subject": "太阳",
+        "variant": "晴日",
+        "color": "黄色"
+      }
+    },
+    "inline:background-1": {
+      "attributes": {
+        "subject": "云",
+        "variant": "积云",
+        "color": "白色"
+      }
+    },
+    "inline:background-2": {
+      "attributes": {
+        "subject": "云",
+        "variant": "积云",
+        "color": "白色"
+      }
+    },
+    "inline:background-3": {
+      "attributes": {
+        "subject": "山",
+        "variant": "青山",
+        "color": "绿色"
+      }
+    },
+    "inline:background-4": {
+      "attributes": {
+        "subject": "房屋",
+        "variant": "小屋",
+        "color": "橘色"
+      }
+    },
+    "inline:background-5": {
+      "attributes": {
+        "subject": "花",
+        "variant": "郁金香",
+        "color": "红色"
+      }
+    }
+  },
+  "background": {
+    "image": "background.png"
+  },
+  "actors": [
+    {
+      "id": "tree-left",
+      "character": "tree",
+      "height": 300,
+      "position": [
+        77,
+        302
+      ],
+      "action": "wind",
+      "rate": 0.6
+    },
+    {
+      "id": "girl-main",
+      "character": "girl",
+      "height": 220,
+      "position": [
+        215,
+        310
+      ],
+      "path": [
+        {
+          "time": 0,
+          "position": [
+            200,
+            310
+          ]
+        },
+        {
+          "time": 1.5,
+          "position": [
+            285,
+            310
+          ]
+        },
+        {
+          "time": 4,
+          "position": [
+            285,
+            310
+          ]
+        }
+      ],
+      "clips": [
+        {
+          "start": 0,
+          "end": 1.5,
+          "action": "run",
+          "expression": "开心",
+          "rate": 1.4
+        },
+        {
+          "start": 1.5,
+          "end": 2.5,
+          "action": "wave",
+          "expression": "开心",
+          "transition": 0.25
+        },
+        {
+          "start": 2.5,
+          "end": 3.2,
+          "action": "idle",
+          "expression": "惊讶",
+          "transition": 0.25
+        },
+        {
+          "start": 3.2,
+          "end": 4,
+          "action": "idle",
+          "expression": "苦笑",
+          "transition": 0.3
+        }
+      ]
+    },
+    {
+      "id": "cat-pet",
+      "character": "cat",
+      "height": 125,
+      "position": [
+        390,
+        316
+      ],
+      "action": "walk",
+      "rate": 1.2,
+      "phase": 0.3,
+      "path": [
+        {
+          "time": 0,
+          "position": [
+            375,
+            316
+          ]
+        },
+        {
+          "time": 1.5,
+          "position": [
+            410,
+            316
+          ]
+        },
+        {
+          "time": 4,
+          "position": [
+            410,
+            316
+          ]
+        }
+      ],
+      "clips": [
+        {
+          "start": 0,
+          "end": 1.5,
+          "action": "walk"
+        },
+        {
+          "start": 1.5,
+          "end": 4,
+          "action": "idle",
+          "transition": 0.25
+        }
+      ]
+    }
+  ]
+}

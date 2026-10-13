@@ -1,0 +1,1 @@
+canvas 128 128 transparent | ellipse 37.00 65.00 21.00 16.80 #ffffff | ellipse 59.00 48.00 24.00 19.20 #ffffff | ellipse 86.00 61.00 24.00 19.20 #ffffff | rect 34.00 61.00 92.00 80.00 #ffffff
