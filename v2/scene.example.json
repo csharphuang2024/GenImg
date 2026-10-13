@@ -1,0 +1,70 @@
+{
+  "version": 1,
+  "width": 640,
+  "height": 360,
+  "fps": 12,
+  "duration": 4,
+  "characters": {
+    "girl": {"prompt": "开心的女孩站着 马尾 棕发 浅肤 蓝色长袖 红色长裤 白色运动鞋 张开手"},
+    "cat": {"prompt": "橘色猫站着"},
+    "tree": {"prompt": "绿色阔叶树"}
+  },
+  "background": {
+    "color": "#c3e8f2",
+    "ground_color": "#8abb70",
+    "horizon": 0.82,
+    "items": [
+      {"prompt": "黄色太阳", "position": [545, 100], "height": 110},
+      {"prompt": "白色积云", "position": [125, 115], "height": 150},
+      {"prompt": "白色积云", "position": [400, 95], "height": 120},
+      {"prompt": "绿色青山", "position": [350, 270], "height": 320},
+      {"prompt": "橘色小屋", "position": [445, 290], "height": 170},
+      {"prompt": "红色郁金香", "position": [575, 324], "height": 65}
+    ]
+  },
+  "actors": [
+    {
+      "id": "tree-left",
+      "character": "tree",
+      "height": 300,
+      "position": [77, 302],
+      "action": "wind",
+      "rate": 0.6
+    },
+    {
+      "id": "girl-main",
+      "character": "girl",
+      "height": 220,
+      "position": [215, 310],
+      "path": [
+        {"time": 0, "position": [200, 310]},
+        {"time": 1.5, "position": [285, 310]},
+        {"time": 4, "position": [285, 310]}
+      ],
+      "clips": [
+        {"start": 0, "end": 1.5, "action": "run", "expression": "开心", "rate": 1.4},
+        {"start": 1.5, "end": 2.5, "action": "wave", "expression": "开心", "transition": 0.25},
+        {"start": 2.5, "end": 3.2, "action": "idle", "expression": "惊讶", "transition": 0.25},
+        {"start": 3.2, "end": 4, "action": "idle", "expression": "苦笑", "transition": 0.3}
+      ]
+    },
+    {
+      "id": "cat-pet",
+      "character": "cat",
+      "height": 125,
+      "position": [390, 316],
+      "action": "walk",
+      "rate": 1.2,
+      "phase": 0.3,
+      "path": [
+        {"time": 0, "position": [375, 316]},
+        {"time": 1.5, "position": [410, 316]},
+        {"time": 4, "position": [410, 316]}
+      ],
+      "clips": [
+        {"start": 0, "end": 1.5, "action": "walk"},
+        {"start": 1.5, "end": 4, "action": "idle", "transition": 0.25}
+      ]
+    }
+  ]
+}
